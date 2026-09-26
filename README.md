@@ -61,3 +61,7 @@ Abaixo incluímos uma tabela para cada modelo, incluindo a precisão, o recall, 
 
 Com a tabela acima, podemos perceber que os modelos de Random Forest e XGBoost são mais adequados. O Random Forest possui um recall maior, ainda que sua precisão seja inferior. Por outro lado XGBoost possui um nível levemente inferior no recall, mas possui uma precisão muito maior, o que faz com que seu F1-score seja superior. As áreas de baixo das curvas também são próximas, o que indicam que o melhor equilíbrio obtido é com o modelo de XGBoost, ainda que ele tenha um recall um pouco inferior. Caso aceite-se diminuir significativamente a precisão para aumentar o recall, então Random forest é o modelo adequado.
 
+Por fim, o uso do teste SHAP para os modelos mostrou que 
+1. Para o modelo de Regressão Logística, as três variáveis mais importantes são
+2. Para o modelo de Random Forest, as três variáveis mais importantes são
+3. Para o modelo de XGBoost, as três variáveis mais importantes são V4, V14 e V12.
